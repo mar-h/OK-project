@@ -1,0 +1,15 @@
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\bin\Debug\netcoreapp3.1\Buchungsvorschlaege.exe
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\bin\Debug\netcoreapp3.1\Buchungsvorschlaege.deps.json
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\bin\Debug\netcoreapp3.1\Buchungsvorschlaege.runtimeconfig.json
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\bin\Debug\netcoreapp3.1\Buchungsvorschlaege.runtimeconfig.dev.json
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\bin\Debug\netcoreapp3.1\Buchungsvorschlaege.dll
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\bin\Debug\netcoreapp3.1\Buchungsvorschlaege.pdb
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\obj\Debug\netcoreapp3.1\Buchungsvorschlaege.csprojAssemblyReference.cache
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\obj\Debug\netcoreapp3.1\Buchungsvorschlaege.AssemblyInfoInputs.cache
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\obj\Debug\netcoreapp3.1\Buchungsvorschlaege.AssemblyInfo.cs
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\obj\Debug\netcoreapp3.1\Buchungsvorschlaege.dll
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\obj\Debug\netcoreapp3.1\Buchungsvorschlaege.pdb
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\obj\Debug\netcoreapp3.1\Buchungsvorschlaege.genruntimeconfig.cache
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\obj\Debug\netcoreapp3.1\Buchungsvorschlaege.csproj.CoreCompileInputs.cache
+C:\Users\MariusHuber\Documents\vs_projects\Buchungsvorschlaege\obj\Debug\netcoreapp3.1\Buchungsvorschlaege.csproj.CopyComplete

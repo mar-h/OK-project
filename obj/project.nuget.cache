@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "11L3cCGviE/s+8nV0TpC0tY8/qflJGU2Jbndo1fH39IdkjtRJchQJE+VkdWXIrYxGqgvm4EyB6JcoYd0u4wfKg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MariusHuber\\Documents\\vs_projects\\Buchungsvorschlaege\\Buchungsvorschlaege.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MariusHuber\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
