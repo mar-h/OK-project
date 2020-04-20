@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MariusHuber\\Documents\\vs_projects\\Buchungsvorschlaege\\Buchungsvorschlaege.csproj",
+      "projectUniqueName": "C:\\Users\\MariusHuber\\Documents\\GitHub\\OK-project\\Buchungsvorschlaege.csproj",
       "projectName": "Buchungsvorschlaege",
-      "projectPath": "C:\\Users\\MariusHuber\\Documents\\vs_projects\\Buchungsvorschlaege\\Buchungsvorschlaege.csproj",
+      "projectPath": "C:\\Users\\MariusHuber\\Documents\\GitHub\\OK-project\\Buchungsvorschlaege.csproj",
       "packagesPath": "C:\\Users\\MariusHuber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MariusHuber\\Documents\\vs_projects\\Buchungsvorschlaege\\obj\\",
+      "outputPath": "C:\\Users\\MariusHuber\\Documents\\GitHub\\OK-project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MariusHuber\\AppData\\Roaming\\NuGet\\NuGet.Config",
