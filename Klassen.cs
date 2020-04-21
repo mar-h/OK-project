@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using System.Globalization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
+using System.IO;
 
 /**
  * Hier werden die Klassen definiert, generiert mithilfe https://app.quicktype.io/?l=csharp
  * Diese Klassen passen zu dem Schema des JSON Datensatzes, und sind geschachtelt aufgebaut
- * Man hat eine Instanz die eine Liste enthält (value), die als Listenelemente die einzelnen Kalendereinträge beinhaltet
+ * Man hat eine Instanz die eine Liste enthält (Value), die als Listenelemente die einzelnen Kalendereinträge beinhaltet
  * 
  * */
+
 namespace Buchungsvorschlaege
 {
     public partial class Kalenderexport
@@ -19,6 +21,20 @@ namespace Buchungsvorschlaege
 
         [JsonProperty("value")]
         public List<Value> Value { get; set; }
+
+        public void ShowAll() //Zeig alle Einträge des Kalenders in der Konsole
+        {
+            for (int i = 0; i < this.Value.Count; i++)
+            {
+                Console.WriteLine(this.Value[i].ToString()); //Ausgabe der ToString Methode, für jedes Element
+            }
+        }
+        public static Kalenderexport loadJson() //Liest und konvertiert den JSON Datensatz
+        {
+            string jsonString = File.ReadAllText(@"..\..\..\json1.json");
+            var kal = Kalenderexport.FromJson(jsonString);
+            return kal;
+        }
     }
 
     public partial class Value

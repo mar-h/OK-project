@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 
 namespace Buchungsvorschlaege
 {
@@ -15,20 +14,14 @@ namespace Buchungsvorschlaege
          * Auf dieser Basis wird die Anwendung aufgebaut
          * 
          * Mit JSON Datensätzen kann man grundsätzlich nicht viel machen, sie müssen in einer Anwendung verarbeitet werden,
-         * in unserer Anwendung ist es objektorientiert, d.h. geschachtelte Objekte die JSON Felder repräsentieren
+         * in unserer Anwendung ist es objektorientiert strukturiert, d.h. geschachtelte Objekte die JSON Felder repräsentieren
          * 
          */
+
         static void Main(string[] args)
         {
-            string jsonString = File.ReadAllText(@"..\..\..\json1.json");
-            var kalenderexport = Kalenderexport.FromJson(jsonString);
-
-            foreach (var el in kalenderexport.Value)
-            {
-                Console.WriteLine(el.ToString()); //Ausgabe der ToString Methode, für jedes Element
-            }
-            Console.WriteLine(kalenderexport.Value[0].Recurrence.Pattern.Type); //Beipiel für ein bestimmtes Feld
-            Console.ReadKey();
+            Kalenderexport kalender = Kalenderexport.loadJson();
+            kalender.ShowAll();
         }
     }
 }
