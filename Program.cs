@@ -8,6 +8,7 @@ namespace Buchungsvorschlaege
         {
             Kalenderexport kalender = Kalenderexport.loadJson();
             kalender.ShowAll();
+            Console.ReadKey();
         }
     }
 }
