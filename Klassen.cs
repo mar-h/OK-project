@@ -15,7 +15,7 @@ namespace Buchungsvorschlaege
         [JsonProperty("value")]
         public List<Value> Value { get; set; }
 
-        public void ShowAll() //Zeig alle Einträge des Kalenders in der Konsole
+        public void ShowAll() //Zeigt alle Einträge des Kalenders in der Konsole
         {
             for (int i = 0; i < this.Value.Count; i++)
             {
