@@ -14,14 +14,26 @@ namespace Buchungsvorschlaege
 
         [JsonProperty("value")]
         public List<Value> Value { get; set; }
-
-        public void ShowAll() //Zeigt alle Einträge des Kalenders in der Konsole
+        public void deleteAllBlocker() //Lösche alle Elemente, die "Blocker" im Subject enthalten
         {
-            for (int i = 0; i < this.Value.Count; i++)
+            for (int i = 0; i < Value.Count; i++)
             {
-                Console.WriteLine(this.Value[i].ToString()); //Ausgabe der ToString Methode, für jedes Element
+                if (Value[i].Subject.Contains("Blocker"))
+                {
+                    Value[i] = null; //Setzt das Element auf null, Value.RemoveAt(i) hat irgendwie nicht funktioniert
+                }
             }
         }
+        public void ShowAll() //Zeigt alle Einträge des Kalenders in der Konsole
+        {
+            for (int i = 0; i < Value.Count; i++)
+            {
+                if (Value[i] != null)
+                Console.WriteLine(Value[i].ToString()); //Ausgabe der ToString Methode, für jedes Element
+            }
+        }
+
+
         public static Kalenderexport loadJson() //Liest und konvertiert den JSON Datensatz
         {
             string jsonString = File.ReadAllText(@"..\..\..\json1.json");
