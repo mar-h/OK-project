@@ -5,13 +5,6 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using System.IO;
 
-/**
- * Hier werden die Klassen definiert, generiert mithilfe https://app.quicktype.io/?l=csharp
- * Diese Klassen passen zu dem Schema des JSON Datensatzes, und sind geschachtelt aufgebaut
- * Man hat eine Instanz die eine Liste enthält (Value), die als Listenelemente die einzelnen Kalendereinträge beinhaltet
- * 
- * */
-
 namespace Buchungsvorschlaege
 {
     public partial class Kalenderexport
