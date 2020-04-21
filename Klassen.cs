@@ -67,7 +67,7 @@ namespace Buchungsvorschlaege
 
         public override string ToString() //ToString Methode zur Konsolenausgabe
         {
-            return "Bezeichnung (Subject): " + this.Subject + " Startzeit: " + this.Start.DateTime;
+            return "Bezeichnung (Subject): " + this.Subject + " Startzeit: " + this.Start.DateTime.ToString("HH:mm");
         }
     }
 
