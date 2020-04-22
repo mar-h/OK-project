@@ -36,7 +36,7 @@ namespace Buchungsvorschlaege
 
         public static Kalenderexport loadJson() //Liest und konvertiert den JSON Datensatz
         {
-            string jsonString = File.ReadAllText(@"..\..\..\json1.json");
+            string jsonString = File.ReadAllText(@"..\..\..\JsonFiles\json1.json");
             var kal = Kalenderexport.FromJson(jsonString);
             return kal;
         }
@@ -77,7 +77,7 @@ namespace Buchungsvorschlaege
         [JsonProperty("recurrence")]
         public Recurrence Recurrence { get; set; }
 
-        public override string ToString() //ToString Methode zur Konsolenausgabe
+        public override string ToString() //ToString Methode des Kalendereintrags
         {
             return "Bezeichnung (Subject): " + this.Subject + " Startzeit: " + this.Start.DateTime.ToString("HH:mm");
         }
