@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Buchungsvorschlaege.Kalenderexport">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAAAAAAAAAAAQAAAAAAAEEAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Klassen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buchungsvorschlaege.Value">
+    <Position X="4.25" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAACAAAAAEAIIAAABIAAAAAAAAAAADIAgAAAA=</HashCode>
+      <FileName>Klassen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buchungsvorschlaege.End">
+    <Position X="8.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Klassen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buchungsvorschlaege.Location">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAIAAAAAAAAAAAAIAAAAAACBAAAAAAAQAA=</HashCode>
+      <FileName>Klassen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buchungsvorschlaege.Address">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Klassen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buchungsvorschlaege.Recurrence">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Klassen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buchungsvorschlaege.Pattern">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAIAAQAAAgAAAEAQEAAAAAAAA=</HashCode>
+      <FileName>Klassen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buchungsvorschlaege.Range">
+    <Position X="4.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAgAAAAgAAAAQAAAEAAAAA=</HashCode>
+      <FileName>Klassen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buchungsvorschlaege.Serialize">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Klassen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buchungsvorschlaege.Converter">
+    <Position X="13.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Klassen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Buchungsvorschlaege.TimeZoneConverter">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQQAAAAAAAAAAAAAAAAAAAEAAAAAAAAACAA=</HashCode>
+      <FileName>Klassen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Buchungsvorschlaege.TimeZone">
+    <Position X="8.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Klassen.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
